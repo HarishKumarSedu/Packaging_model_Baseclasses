@@ -1,0 +1,8 @@
+artifacts_root: artifacts 
+
+data_ingestion:
+    root_dir : artifacts/data_ingestion
+    test_data_url: 'https://github.com/HarishKumarSedu/MlOps_Repo/blob/master/Packaging-ML-Model/packaging-ml-model/prediction_model/datasets/test.csv' 
+    train_data_url: 'https://github.com/HarishKumarSedu/MlOps_Repo/blob/master/Packaging-ML-Model/packaging-ml-model/prediction_model/datasets/train.csv' 
+    unzip_dir: artifacts/data_ingestion/test.csv
+    local_data_path : artifacts/data_ingestion 
