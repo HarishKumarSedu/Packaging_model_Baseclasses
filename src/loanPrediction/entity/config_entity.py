@@ -7,5 +7,6 @@ class DataingestionTemplate:
     root_dir : Path 
     test_data_url: Path 
     train_data_url: Path 
-    unzip_dir: Path 
+    test_unzip_dir: Path 
+    train_unzip_dir: Path 
     local_data_path : Path 

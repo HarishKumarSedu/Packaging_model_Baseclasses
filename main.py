@@ -1,12 +1,13 @@
 from src import logger
 
-from src.loanPrediction.config.configurations import ConfigurationManager
-import urllib.request as request 
-objconfig = ConfigurationManager()
-data_ingestion_args = objconfig.data_ingestion_configuration()
+# from src.loanPrediction.config.configurations import ConfigurationManager
+# from src.loanPrediction.component.data_ingestion import DataIngestion
 
-filename, header = request.urlretrieve(
-    url=data_ingestion_args.test_data_url,
-    filename=data_ingestion_args.unzip_dir
-)
-print(header)
+# objconfig = ConfigurationManager()
+# data_ingestion_args = objconfig.data_ingestion_configuration()
+
+# data_ingestion = DataIngestion(data_ingestion=data_ingestion_args)
+
+# data_ingestion.get_data()
+
+logger.error('!Hi')

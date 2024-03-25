@@ -2,8 +2,11 @@ import os
 import sys
 import logging
 from pathlib import Path 
+import coloredlogs
+from rich.logging import RichHandler
 
-logging_str = "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
+# coloredlogs.install()
+logging_str = "[%(levelname)s][%(asctime)s: %(module)s: %(message)s]"
 
 log_dir = "logs"
 os.makedirs(log_dir, exist_ok=True)
@@ -16,7 +19,8 @@ logging.basicConfig(
 
     handlers=[
         logging.FileHandler(Path(log_filepath)),
-        logging.StreamHandler(sys.stdout)
+        logging.StreamHandler(sys.stdout),
+        RichHandler()
     ]
 )
 

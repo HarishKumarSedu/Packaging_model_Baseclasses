@@ -18,7 +18,8 @@ class ConfigurationManager:
                 root_dir  = config.root_dir, 
                 test_data_url = config.test_data_url,
                 train_data_url = config.train_data_url,
-                unzip_dir = config.unzip_dir,
+                test_unzip_dir = config.test_unzip_dir,
+                train_unzip_dir = config.train_unzip_dir,
                 local_data_path  = config.local_data_path, 
         )
 
