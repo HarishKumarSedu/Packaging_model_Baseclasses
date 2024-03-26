@@ -73,3 +73,46 @@
 [INFO][2024-03-24 21:03:47,085: main: !Hi]
 [ERROR][2024-03-24 21:04:00,163: main: !Hi]
 [ERROR][2024-03-25 09:28:45,878: main: !Hi]
+[ERROR][2024-03-25 09:44:34,318: 3134267121: Sleep command timedout]
+NoneType: None
+[INFO][2024-03-25 10:02:13,445: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.10.62:5000]
+[INFO][2024-03-25 10:02:13,455: _internal: [33mPress CTRL+C to quit[0m]
+[INFO][2024-03-25 10:02:13,461: _internal:  * Restarting with stat]
+[WARNING][2024-03-25 10:02:13,996: _internal:  * Debugger is active!]
+[INFO][2024-03-25 10:02:14,022: _internal:  * Debugger PIN: 355-007-421]
+[INFO][2024-03-25 10:02:24,789: app: Hello World !!!!!!!!!]
+[INFO][2024-03-25 10:02:24,798: _internal: 127.0.0.1 - - [25/Mar/2024 10:02:24] "GET / HTTP/1.1" 200 -]
+[INFO][2024-03-25 10:02:24,991: _internal: 127.0.0.1 - - [25/Mar/2024 10:02:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[INFO][2024-03-25 10:02:45,765: app: Hello World !!!!!!!!!]
+[INFO][2024-03-25 10:02:45,770: _internal: 127.0.0.1 - - [25/Mar/2024 10:02:45] "GET / HTTP/1.1" 200 -]
+[INFO][2024-03-25 10:03:01,706: _internal:  * Detected change in 'C:\\Users\\smlab\\Documents\\Harish\\ml\\mlOPS\\my-project\\Packaging_model_Baseclasses\\Docker\\app.py', reloading]
+[INFO][2024-03-25 10:03:01,763: _internal:  * Restarting with stat]
+[WARNING][2024-03-25 10:03:02,326: _internal:  * Debugger is active!]
+[INFO][2024-03-25 10:03:02,340: _internal:  * Debugger PIN: 355-007-421]
+[INFO][2024-03-25 10:03:31,672: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.10.62:5001]
+[INFO][2024-03-25 10:03:31,680: _internal: [33mPress CTRL+C to quit[0m]
+[INFO][2024-03-25 10:03:31,693: _internal:  * Restarting with stat]
+[WARNING][2024-03-25 10:03:32,157: _internal:  * Debugger is active!]
+[INFO][2024-03-25 10:03:32,171: _internal:  * Debugger PIN: 355-007-421]
+[INFO][2024-03-25 10:03:36,551: app: Hello World !!!!!!!!!]
+[INFO][2024-03-25 10:03:36,555: _internal: 127.0.0.1 - - [25/Mar/2024 10:03:36] "GET / HTTP/1.1" 200 -]
+[INFO][2024-03-25 10:03:36,602: _internal: 127.0.0.1 - - [25/Mar/2024 10:03:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[INFO][2024-03-25 10:04:22,885: _internal:  * Detected change in 'C:\\Users\\smlab\\Documents\\Harish\\ml\\mlOPS\\my-project\\Packaging_model_Baseclasses\\Docker\\app.py', reloading]
+[INFO][2024-03-25 10:04:22,941: _internal:  * Restarting with stat]
+[INFO][2024-03-25 10:05:50,729: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.10.62:5001]
+[INFO][2024-03-25 10:05:50,738: _internal: [33mPress CTRL+C to quit[0m]
+[INFO][2024-03-25 10:05:50,743: _internal:  * Restarting with stat]
+[WARNING][2024-03-25 10:05:51,209: _internal:  * Debugger is active!]
+[INFO][2024-03-25 10:05:51,224: _internal:  * Debugger PIN: 355-007-421]
+[INFO][2024-03-25 10:06:06,403: app: Hello World !!!!!!!!!]
+[INFO][2024-03-25 10:06:06,406: _internal: 127.0.0.1 - - [25/Mar/2024 10:06:06] "GET / HTTP/1.1" 200 -]
+[INFO][2024-03-25 10:06:06,476: _internal: 127.0.0.1 - - [25/Mar/2024 10:06:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
